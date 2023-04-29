@@ -1,0 +1,16 @@
+.nav-bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.navs{
+    font-size: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+.fa:hover{
+    cursor: pointer;
+}

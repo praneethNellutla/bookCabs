@@ -1,0 +1,32 @@
+table{
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 100px auto;
+    font-size: 25px;
+    overflow-x: scroll;
+    display: block;
+}
+th{
+    border: 1px solid black;
+    padding: 20px;
+}
+.add{
+    position: absolute;
+    top: 110px;
+    right: 30px;
+    font-size: 20px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid grey;
+}
+
+.add:hover{
+    cursor: pointer;
+}
+
+table::-webkit-scrollbar {
+    display: none;
+}
+
